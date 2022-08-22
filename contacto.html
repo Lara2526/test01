@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Museo</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+            <li><a href="contacto.html" class="estilo">Contacto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <section class="contacto">
+        <h3 class="titulo">Contactonos</h3>
+        <div class="formulario">
+            <h4>Formulario de contacto</h4>
+            <form action="">
+
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Nombre" name="name" id="idname">
+                <br>
+                <br>
+                <div>
+                    <label for="apellidoM">Apellido Materno</label>
+                    <input type="text" placeholder="Apellido Materno" name="apellidoM" id="idapellidom">
+                    <label for="apellidoP">Apellido Paterno</label>
+                    <input type="text" placeholder="Apellido Paterno" name="apellidoP" id="idapellidop">
+                </div>
+                <br>
+                <label for="nac">Fecha de nacimiento</label>
+                <input type="date" name="nac" id="idnac">
+                <br><br>
+                <label for="email">Correo Electronico</label>
+                <input type="email" placeholder=" ej: correo@gmail.com" name="email" id="idemail">
+                <br>
+                <br>
+                <label for="rfc">RFC</label>
+                <input type="number" placeholder="rfc" name="rfc" id="idrfc">
+                <br><br>
+                <label for="codigopostal">Codigo Postal</label>
+                <input type="number" placeholder="codigopostal" name="codigopostal" id="idcodigopostal">
+                <br><br>
+                Estado:
+                <select name="estado" id="">
+                    <option value="soltero"> Soltero/a</option>
+                    <option value="casado"> Casado/a</option>
+                    <option value="divorciado"> Divorciado/a</option>
+                    <option value="viudo"> Viudo/a</option>
+                </select>
+                <br><br>
+                Delegacion/Municipio:
+                <select name="municipios" id="">
+                    <option> </option>
+                    <option>Abra Pampas</option>
+                    <option>Aguas Calientes</option>
+                    <option>Caimancitor</option>
+                    <option>Calilegum</option>
+                    <option>El Aguilar</option>
+                    <option>El Carmen</option>
+                    <option>El Talar</options>
+                    <option>Fraile Pintado</option>
+                    <option>La Mendieta</option>
+                    <option>La Quiaca</option>
+                    <option>Libertador General San Martins</option>
+                    <option>Maimará</option>
+                    <option> Monterrico</option>
+                    <option>Palma Sola</option>
+                    <option>Palpalá</option>
+                    <option>Pampa Blanca</option>
+                    <option>Perico</option>
+                    <option>Puesto Viejo</options>
+                    <option>San Antonios</option>
+                    <options>San Pedro de Jujuy</option>
+                        <option>San Salvador de Jujuy</option>
+                        <option> Santa Clara</option>
+                        <option>Tilcaras</option>
+                        <option>Yala</option>
+                        <option>Yuto</option>
+                </select>
+                <br> <br>
+                Colonia:
+                <select name="colonia" id="">
+                    <option value="si">si</option>
+                    <option value="no">no</option>
+                </select>
+                <br><br>
+                Agrega Colonia: 
+                <input type="checkbox" name="colonia" value="colonia">
+                <br>
+                <br>
+                Sexo:
+                <input type="radio" name="sex" value="sexmasculino"> Masculino
+                <input type="radio" name="sex" value="sexfemenino"> Femenino
+                <br><br>
+                <div class="borde-boton">
+                    <input type="submit" value="Submit" class="boton">
+                </div>
+            </form>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Derechos reservado</p>
+    </footer>
+</body>
+
+</html>
